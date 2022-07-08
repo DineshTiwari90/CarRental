@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.car_rental"
+4    android:versionCode="99"
+5    android:versionName="1.4.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <!-- Include required permissions for Google Maps API to run. -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+13-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <application
+26        android:name="android.app.Application"
+26-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:6:9-42
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.8.0] /Users/dinesh/.gradle/caches/transforms-3/fa25099c0f5d4208a5d1f9e8900d4b98/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:7:9-43
+29        android:label="car_rental" >
+29-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:5:9-35
+30        <activity
+30-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:8:9-28:20
+31            android:name="com.example.car_rental.MainActivity"
+31-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:9:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:13:13-163
+33            android:exported="true"
+33-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:10:13-36
+34            android:hardwareAccelerated="true"
+34-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:14:13-47
+35            android:launchMode="singleTop"
+35-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:11:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:12:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:15:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:20:13-23:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:21:15-70
+47                android:resource="@style/NormalTheme" />
+47-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:22:15-52
+48
+49            <intent-filter>
+49-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:24:13-27:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:25:17-68
+50-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:25:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:26:17-76
+52-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:26:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:31:9-33:33
+60            android:name="flutterEmbedding"
+60-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:32:13-44
+61            android:value="2" />
+61-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:33:13-30
+62        <meta-data
+62-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:35:5-36:75
+63            android:name="com.google.android.geo.API_KEY"
+63-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:35:16-61
+64            android:value="AIzaSYCGSHAceyIm1LHL2mLja0ekCKDj0\oZV2RzY" />
+64-->/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app/src/main/AndroidManifest.xml:36:16-73
+65
+66        <provider
+66-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+67            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+67-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-82
+68            android:authorities="com.example.car_rental.flutter.image_provider"
+68-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+69            android:exported="false"
+69-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+70            android:grantUriPermissions="true" >
+70-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+71            <meta-data
+71-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:75
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+73                android:resource="@xml/flutter_image_picker_file_paths" />
+73-->[:image_picker_android] /Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-72
+74        </provider>
+75
+76        <uses-library
+76-->[androidx.window:window:1.0.0-beta04] /Users/dinesh/.gradle/caches/transforms-3/906e8d7d191fd1dc95456eedfdac304e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+77            android:name="androidx.window.extensions"
+77-->[androidx.window:window:1.0.0-beta04] /Users/dinesh/.gradle/caches/transforms-3/906e8d7d191fd1dc95456eedfdac304e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+78            android:required="false" />
+78-->[androidx.window:window:1.0.0-beta04] /Users/dinesh/.gradle/caches/transforms-3/906e8d7d191fd1dc95456eedfdac304e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] /Users/dinesh/.gradle/caches/transforms-3/906e8d7d191fd1dc95456eedfdac304e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+80            android:name="androidx.window.sidecar"
+80-->[androidx.window:window:1.0.0-beta04] /Users/dinesh/.gradle/caches/transforms-3/906e8d7d191fd1dc95456eedfdac304e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+81            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+81-->[androidx.window:window:1.0.0-beta04] /Users/dinesh/.gradle/caches/transforms-3/906e8d7d191fd1dc95456eedfdac304e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+82        <uses-library
+82-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+83            android:name="org.apache.http.legacy"
+83-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+84            android:required="false" />
+84-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dinesh/.gradle/caches/transforms-3/307d5a6e796f8afe9f7b1a71a8f5e84d/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:18.0.1] /Users/dinesh/.gradle/caches/transforms-3/30ec5ba77de62907e06f7e4f32e6f6de/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:18.0.1] /Users/dinesh/.gradle/caches/transforms-3/30ec5ba77de62907e06f7e4f32e6f6de/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:18.0.1] /Users/dinesh/.gradle/caches/transforms-3/30ec5ba77de62907e06f7e4f32e6f6de/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:18.0.1] /Users/dinesh/.gradle/caches/transforms-3/30ec5ba77de62907e06f7e4f32e6f6de/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dinesh/.gradle/caches/transforms-3/61ca244a1a9a83718e049424a6c05d97/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dinesh/.gradle/caches/transforms-3/61ca244a1a9a83718e049424a6c05d97/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dinesh/.gradle/caches/transforms-3/61ca244a1a9a83718e049424a6c05d97/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+94    </application>
+95
+96</manifest>

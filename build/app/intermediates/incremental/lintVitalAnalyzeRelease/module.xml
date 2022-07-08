@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.0.2"
+    buildFolder="/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/app"
+    bootClassPath="/Users/dinesh/Library/Android/sdk/platforms/android-31/android.jar:/Users/dinesh/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/merged_res/release/values-fi/values-fi.xml",
+            "map": [
+                {
+                    "source": "/Users/dinesh/.gradle/caches/transforms-3/fa25099c0f5d4208a5d1f9e8900d4b98/transformed/core-1.8.0/res/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/image_picker_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-fi/values-fi.xml",
+            "map": [
+                {
+                    "source": "/Users/dinesh/.gradle/caches/transforms-3/fa25099c0f5d4208a5d1f9e8900d4b98/transformed/core-1.8.0/res/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

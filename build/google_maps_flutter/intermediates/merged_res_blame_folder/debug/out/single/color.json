@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/google_maps_flutter/intermediates/merged_res/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/dinesh/.gradle/caches/transforms-3/30ec5ba77de62907e06f7e4f32e6f6de/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/google_maps_flutter/intermediates/merged_res/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/dinesh/.gradle/caches/transforms-3/30ec5ba77de62907e06f7e4f32e6f6de/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/google_maps_flutter/intermediates/merged_res/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/dinesh/.gradle/caches/transforms-3/30ec5ba77de62907e06f7e4f32e6f6de/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

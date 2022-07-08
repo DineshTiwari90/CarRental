@@ -1,0 +1,4 @@
+#Thu Jul 07 19:23:21 IST 2022
+base.0=/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

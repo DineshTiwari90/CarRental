@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/path_provider_android/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/dinesh/.gradle/caches/transforms-3/37e618f24421a22dc63349b751026d75/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/path_provider_android/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/dinesh/.gradle/caches/transforms-3/37e618f24421a22dc63349b751026d75/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/path_provider_android/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/dinesh/.gradle/caches/transforms-3/37e618f24421a22dc63349b751026d75/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/dinesh/Downloads/CarRental-ravi-2022-06-27-ravi-2022-07-07/build/path_provider_android/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/dinesh/.gradle/caches/transforms-3/37e618f24421a22dc63349b751026d75/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
